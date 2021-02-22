@@ -2,6 +2,7 @@ proxy:
   port: 3838
   authentication: none
   hide-navbar: true
+  template-path: ./templates
   landing-page: /app/dashboard
   docker:
       internal-networking: true
