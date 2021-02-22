@@ -6,7 +6,7 @@ proxy:
   docker:
       internal-networking: true
   specs:
-  - id: dashboard
+  - id: nm-dashboard
     display-name: NM Dashboard
     container-cmd: ["R", "-e", "shiny::runApp('/root/app')"]
     container-image: nm-dashboard
